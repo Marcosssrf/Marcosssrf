@@ -36,6 +36,6 @@
 
 ## Contato
 
-- 📧 **E-mail**: [luccasasahe@gmail.com](mailto:marcosssrf@hotmail.com)
+- 📧 **E-mail**: [marcosssrf@hotmail.com](mailto:marcosssrf@hotmail.com)
 - [LinkedIn](https://www.linkedin.com/in/marcosssrf/)
 - [Instagram](https://www.instagram.com/marcosssrf)
