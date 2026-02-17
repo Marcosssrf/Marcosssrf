@@ -45,5 +45,3 @@
 <h3 align="center">Contato:</h3>
 <p align="center">
 <a href="https://linkedin.com/in/marcosssrf" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="marcosssrf" height="30" width="40" /></a>
-<a href="mailto:marcosssrf@hotmail.com"><img align="center" src="">
-</p>
