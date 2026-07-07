@@ -36,7 +36,7 @@
 
 ## 🔥 Projetos em Destaque
 
-### [MedManage Backend](https://github.com/Marcosssrf/MedManage) · [Frontend](https://github.com/Marcosssrf/MedManageFront)
+### [MedManage](https://github.com/Marcosssrf/MedManage)
 Sistema fullstack de gestão de clínica médica com deploy em produção.
 - **Backend:** Java 21, Spring Boot, REST API, H2/PostgreSQL
 - **Frontend:** React, TypeScript, Vite, Tailwind CSS — deploy na **Vercel**
