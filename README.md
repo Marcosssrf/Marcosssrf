@@ -36,7 +36,7 @@
 
 ## 🔥 Projetos em Destaque
  
-### [Mensalito](https://github.com/Marcosssrf/mensalito-api)
+### [Mensalito](https://github.com/Marcosssrf/mensalito)
 Sistema SaaS multi-tenant de gestão de mensalidades escolares.
 - **Backend:** Java, Spring Boot, PostgreSQL, Flyway, Redis
 - **Cobranças automáticas:** integração com Mercado Pago (PIX/Boleto) via webhook
