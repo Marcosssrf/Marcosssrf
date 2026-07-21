@@ -35,6 +35,14 @@
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## 🔥 Projetos em Destaque
+ 
+### [Mensalito](https://github.com/Marcosssrf/mensalito-api)
+Sistema SaaS multi-tenant de gestão de mensalidades escolares.
+- **Backend:** Java, Spring Boot, PostgreSQL, Flyway, Redis
+- **Cobranças automáticas:** integração com Mercado Pago (PIX/Boleto) via webhook
+- **Notificações:** integração com WhatsApp via Evolution API
+- **Autenticação:** JWT + Supabase, papéis de acesso (Owner/Teacher), auditoria de ações
+- Jobs agendados para geração de cobranças, marcação de inadimplência e expiração de convites
 
 ### [MedManage](https://github.com/Marcosssrf/MedManage)
 Sistema fullstack de gestão de clínica médica com deploy em produção.
