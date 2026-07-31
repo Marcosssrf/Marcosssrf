@@ -5,7 +5,7 @@
 
 ## Sobre mim
 
-- 🎓 Estudante de Sistemas de Informação na Uniube (5º período)
+- 🎓 Estudante de Sistemas de Informação na Uniube (6º período)
 - 💻 Foco em desenvolvimento backend com Java e Spring Boot, com experiência fullstack usando React e TypeScript
 - 🚀 Projetos em produção com deploy na Vercel e Microsoft Azure
 - 🌍 Inglês avançado para leitura de documentação técnica
