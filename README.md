@@ -1,81 +1,90 @@
-<h1 align="center">⚡️ Marcos Rodrigues Fernandes</h1>
-<h3 align="center">Desenvolvedor Fullstack | Java · Spring Boot · React</h3>
+<h1 align="center">Marcos Rodrigues Fernandes</h1>
+<h3 align="center">Desenvolvedor Full Stack · Java · Spring Boot · React · Agentes de IA</h3>
+
+<p align="center">
+  <a href="https://marcosssrf.dev">marcosssrf.dev</a> ·
+  <a href="https://linkedin.com/in/marcosssrf">LinkedIn</a> ·
+  <a href="mailto:marcosssrf@hotmail.com">marcosssrf@hotmail.com</a>
+</p>
 
 <br/>
 
 ## Sobre mim
 
-- 🎓 Estudante de Sistemas de Informação na Uniube (6º período)
-- 💻 Foco em desenvolvimento backend com Java e Spring Boot, com experiência fullstack usando React e TypeScript
-- 🚀 Projetos em produção com deploy na Vercel e Microsoft Azure
-- 🌍 Inglês avançado para leitura de documentação técnica
-- 🎯 Buscando oportunidade de estágio em desenvolvimento de software
+Uso IA como multiplicador de força para levar soluções do protótipo até a produção.
+
+- 💼 Estagiário de Desenvolvimento na **[Loog.ai](https://loog.ai)**, em squad full-cycle
+- 🤖 Construí um **agente de IA no WhatsApp** que audita documentos e fotos de motoristas e avalia se estão aptos a dirigir: **em produção, ~100 motoristas/mês**
+- 📊 Dashboard operacional de viagens e rotas, e hoje reformulando o CRM da empresa (backend, migrations e integrações)
+- 🛠️ Uso Claude Code diariamente em todo o ciclo: diagnóstico, plano, implementação, testes e deploy
+- 🎓 Sistemas de Informação na Uniube (6º período)
+
+<br/>
+
+## 🔥 Projetos em destaque
+
+### [Mensalito](https://github.com/Marcosssrf/Mensalito) — SaaS de automação de cobranças escolares
+Construído do zero em poucos dias com desenvolvimento assistido por IA.
+- Geração mensal de cobranças por **jobs agendados**, pagamento via **PIX e boleto (Mercado Pago)** e lembretes automáticos no **WhatsApp (Evolution API)**
+- **Webhooks** atualizando pagamentos em tempo real
+- Arquitetura **multi-tenant** com isolamento por escola, autenticação **Supabase + JWT** e papéis de acesso
+- `Java 21` `Spring Boot` `React` `TypeScript` `PostgreSQL` `Redis` `Flyway`
+
+### [F1 Lakehouse](https://github.com/Marcosssrf/f1-data-project) — Pipeline de dados da Fórmula 1
+Pipeline completo no Databricks com dados reais da F1.
+- `PySpark` `Azure Databricks` `Delta Lake`
+
+### [MedManage](https://github.com/Marcosssrf/MedManage) — Gestão de clínicas médicas
+API REST + [frontend](https://github.com/Marcosssrf/MedManageFront) com deploy em produção.
+- Agendamentos, módulo financeiro (PIX, cartão, convênio) e relatórios de faturamento
+- Backend na **Azure** com Docker, frontend na **Vercel**
+- `Java 21` `Spring Boot` `React` `TypeScript` `Tailwind` `PostgreSQL`
+
+### [InkSpace](https://github.com/Marcosssrf/InkSpace) — Gestão de biblioteca
+- Empréstimos com controle de estoque, multas automáticas, fila de reservas e relatórios
+- `Java` `Spring Boot` `Thymeleaf` `MySQL`
 
 <br/>
 
 ## 🛠️ Stack
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+**IA & Agentes:** Claude Code · agentes conversacionais no WhatsApp · validação de imagens com IA · prompt engineering
 
-## 🔥 Projetos em Destaque
- 
-### [Mensalito](https://github.com/Marcosssrf/mensalito)
-Sistema SaaS multi-tenant de gestão de mensalidades escolares.
-- **Backend:** Java, Spring Boot, PostgreSQL, Flyway, Redis
-- **Cobranças automáticas:** integração com Mercado Pago (PIX/Boleto) via webhook
-- **Notificações:** integração com WhatsApp via Evolution API
-- **Autenticação:** JWT + Supabase, papéis de acesso (Owner/Teacher), auditoria de ações
-- Jobs agendados para geração de cobranças, marcação de inadimplência e expiração de convites
+**Backend:**
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-### [MedManage](https://github.com/Marcosssrf/MedManage)
-Sistema fullstack de gestão de clínica médica com deploy em produção.
-- **Backend:** Java 21, Spring Boot, REST API, H2/PostgreSQL
-- **Frontend:** React, TypeScript, Vite, Tailwind CSS — deploy na **Vercel**
-- **Backend deploy:** Microsoft **Azure** com banco via Docker
-- Regras de negócio para agendamentos, módulo financeiro (PIX, Cartão, Convênio) e relatórios de faturamento
+**Frontend:**
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 
-### [InkSpace](https://github.com/Marcosssrf/InkSpace)
-Sistema completo de gerenciamento de biblioteca.
-- **Stack:** Java, Spring Boot, Thymeleaf, MySQL
-- Ciclo de empréstimos com controle de estoque, sistema de multas automáticas, fila de reservas e painel de relatórios
-- API RESTful com operações em lote, testada via Postman
+**Dados:**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
 
-### [Rastreio de Mão](https://github.com/Marcosssrf/RastreioMao)
-Aplicação de visão computacional em tempo real.
-- **Stack:** Python, OpenCV, MediaPipe
-- Controle do cursor do mouse via gestos capturados pela webcam
+**Infra & Ferramentas:**
+![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 <br/>
 
-## 📌 Outros Projetos
+<details>
+<summary>📌 Outros projetos</summary>
 
 | Projeto | Descrição | Stack |
 |---|---|---|
-| [InkSpace Swing](https://github.com/Marcosssrf/InkSpaceSwing) | Sistema de biblioteca com interface gráfica desktop | Java, Swing |
-| [Sistema de Loja](https://github.com/Marcosssrf/sistemaLoja) | Sistema de gerenciamento de loja | Python |
-| [Jogo do Porco](https://github.com/Marcosssrf/Jogo-do-Porco) | Jogo interativo no browser | HTML, CSS, JavaScript |
-| [demo-dao-JDBC](https://github.com/Marcosssrf/demo-dao-jdbc) | Estudo de integração com banco de dados via JDBC | Java |
+| [Rastreio de Mão](https://github.com/Marcosssrf/RastreioMao) | Controle do cursor por gestos via webcam | Python, OpenCV, MediaPipe |
+| [InkSpace Swing](https://github.com/Marcosssrf/InkSpaceSwing) | Versão desktop do sistema de biblioteca | Java, Swing |
+| [Sistema de Loja](https://github.com/Marcosssrf/sistemaLoja) | Gerenciamento de loja | Python |
+| [Jogo do Porco](https://github.com/Marcosssrf/Jogo-do-Porco) | Jogo de dados no navegador | HTML, CSS, JavaScript |
 
-<br/>
-
-<h3 align="center">📬 Contato</h3>
-<p align="center">
-<a href="https://linkedin.com/in/marcosssrf" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40"/></a>
-</p>
+</details>
